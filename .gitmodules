@@ -1,0 +1,3 @@
+[submodule "3rdParty/SimpleFileWatcher"]
+	path = 3rdParty/SimpleFileWatcher
+	url = https://github.com/shadowndacorner/SimpleFileWatcher
