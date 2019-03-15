@@ -82,7 +82,7 @@ int main(int argc, char** argv)
 	}
 
     FW::SingleThreadedPollingFileWatcher m_Watcher;
-    auto watchid = m_Watcher.addWatch(path, recursive);
+    auto watchid = m_Watcher.addWatch(path, recursive == 1 ? true : false);
 
     FW::FileWatcherEvent ev;
     printf("Watching path %s\n", path);
